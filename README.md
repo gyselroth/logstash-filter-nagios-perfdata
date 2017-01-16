@@ -1,5 +1,4 @@
-# logstash-filter-nagios-perfdata
-Logstash Nagios/Icinga2 Perfdata Filter
+# Logstash (Nagios) performance data filter
 
 ### Description
 This filter plugin will index your monitoring performance data into ES, given that you can create for example kibana graphs based on your infrastructure performance data.
