@@ -9,6 +9,8 @@ The plugin will index data from messagess in the following example:
 
 You have to enable performance data logging in your monitoring engine, @see example for Icinga2.
 
+### Compatibility 
+This filter has been successfully tested with logstash 5.1.1 / ES 5.1.1 / Kibana 5.1.1 and Icinga2 2.6.0 as performance data source.
 
 ### Installation logstash
 * Move pattern.conf to your logstash pattern directory as nagios-perfdata.conf, usually located at /etc/logstash/patterns/
